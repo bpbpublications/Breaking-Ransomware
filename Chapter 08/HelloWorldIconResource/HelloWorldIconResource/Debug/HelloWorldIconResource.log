@@ -1,0 +1,33 @@
+﻿Build started 1/6/2021 4:49:37 AM.
+Project "C:\JitenderN\Book\HelloWorldIconResource\HelloWorldIconResource\HelloWorldIconResource.vcxproj" on node 2 (build target(s)).
+PrepareForBuild:
+  Creating directory "C:\JitenderN\Book\HelloWorldIconResource\Debug\".
+InitializeBuildStatus:
+  Creating "Debug\HelloWorldIconResource.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HelloWorldIconResource.cpp
+  HelloWorldIconResource.cpp
+ResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\HelloWorldIconResource.res" HelloWorldIconResource.rc 
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HelloWorldIconResource.exe.embed.manifest.res" Debug\HelloWorldIconResource_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\JitenderN\Book\HelloWorldIconResource\Debug\HelloWorldIconResource.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HelloWorldIconResource.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\JitenderN\Book\HelloWorldIconResource\Debug\HelloWorldIconResource.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\JitenderN\Book\HelloWorldIconResource\Debug\HelloWorldIconResource.lib" /MACHINE:X86 Debug\HelloWorldIconResource.res
+  Debug\HelloWorldIconResource.exe.embed.manifest.res
+  Debug\HelloWorldIconResource.obj
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\HelloWorldIconResource.exe.embed.manifest" /manifest Debug\HelloWorldIconResource.exe.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HelloWorldIconResource.exe.embed.manifest.res" Debug\HelloWorldIconResource_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\JitenderN\Book\HelloWorldIconResource\Debug\HelloWorldIconResource.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HelloWorldIconResource.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\JitenderN\Book\HelloWorldIconResource\Debug\HelloWorldIconResource.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\JitenderN\Book\HelloWorldIconResource\Debug\HelloWorldIconResource.lib" /MACHINE:X86 Debug\HelloWorldIconResource.res
+  Debug\HelloWorldIconResource.exe.embed.manifest.res
+  Debug\HelloWorldIconResource.obj
+  HelloWorldIconResource.vcxproj -> C:\JitenderN\Book\HelloWorldIconResource\Debug\HelloWorldIconResource.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\HelloWorldIconResource.unsuccessfulbuild".
+  Touching "Debug\HelloWorldIconResource.lastbuildstate".
+Done Building Project "C:\JitenderN\Book\HelloWorldIconResource\HelloWorldIconResource\HelloWorldIconResource.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.84
